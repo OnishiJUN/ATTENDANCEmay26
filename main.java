@@ -4,6 +4,7 @@ public class main {
 	public static void main(String[] args) {
 		
 		// Main program and display the following inputs
+		//Display TOYOTAVIOS calling inheritance
 		ToyotaVios obj = new ToyotaVios ();
 		System.out.println("==============================");
 		System.out.println(obj.name);
@@ -14,6 +15,7 @@ public class main {
 		obj.run();
 		obj.stop();
 		
+		//Display U2SPYPLANE calling inheritance
 		U2SpyPlane obj1 = new U2SpyPlane();
 		System.out.println("==============================");
 		System.out.println(obj1.name1);
@@ -24,6 +26,7 @@ public class main {
 		obj1.run();
 		obj1.stop();
 		
+		//Display FANDANGOYATCH calling inheritance
 		FandangoYatch obj2 = new FandangoYatch();
 		System.out.println("==============================");
 		System.out.println(obj2.name2);
